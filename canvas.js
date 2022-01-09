@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+window.addEventListener("load", (e) => {
   const canvas = document.querySelector("#canvas");
   const ctx = canvas.getContext("2d");
   
